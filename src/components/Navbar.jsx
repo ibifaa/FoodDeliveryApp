@@ -34,7 +34,7 @@ function Navbar() {
               {user ?
                <li className="flex flex-row gap-2">
                <Link to="/profile">{user.name}</Link>
-               <div>
+               <div className="flex gap-5">
                <Link to="/profile">Profile</Link>
                <Link to="/orders">Orders</Link>
                <a onClick={logOut}></a>
