@@ -3,7 +3,7 @@ import heroImage from "../assets/png/heroImage.png";
 
 function Hero() {
   return (
-    <div className="hero flex items-center sm:flex-row flex-col w-[100%] justify-between bg-[#FCC70C] sm:p-10 p-5">
+    <div className="hero flex items-center sm:flex-row flex-col w-[100%] h-[90vh] justify-between bg-[#FCC70C] sm:p-10 p-5">
       <div className="textSection sm:w-[50%] w-[100%]">
         <div>
           {" "}

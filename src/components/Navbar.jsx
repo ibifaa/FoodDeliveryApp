@@ -1,7 +1,7 @@
 import logo from "../assets/svg/logo.svg";
 import cart from "../assets/svg/cart.svg";
 import user from "../assets/svg/user.svg";
-import Link from "react-router"
+import {Link} from "react-router-dom"
 import "../index.css";
 
 function Navbar() {
